@@ -42,5 +42,6 @@ func main() {
 
 	// Random Seeding
 	rand.Seed(time.Now().UnixNano())
-	amountLeft := rand.Intn(10000)
+	newLeft := rand.Intn(10000)
+	fmt.Println("amountLeft is: ", newLeft)
 }
